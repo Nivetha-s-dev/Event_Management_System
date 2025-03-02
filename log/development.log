@@ -1,0 +1,1407 @@
+Started GET "/" for 127.0.0.1 at 2025-01-12 00:05:24 -0500
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20180627103715_create_events.rb
+
+
+):
+  
+activerecord (7.0.8) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8) lib/active_support/evented_file_update_checker.rb:63:in `execute'
+activerecord (7.0.8) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (6.4.0) lib/puma/configuration.rb:272:in `call'
+puma (6.4.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.0) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.0) lib/puma/server.rb:443:in `process_client'
+puma (6.4.0) lib/puma/server.rb:241:in `block in run'
+puma (6.4.0) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2025-01-12 00:06:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20180627103715_create_events.rb
+
+
+):
+  
+activerecord (7.0.8) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8) lib/active_support/evented_file_update_checker.rb:63:in `execute'
+activerecord (7.0.8) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (6.4.0) lib/puma/configuration.rb:272:in `call'
+puma (6.4.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.0) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.0) lib/puma/server.rb:443:in `process_client'
+puma (6.4.0) lib/puma/server.rb:241:in `block in run'
+puma (6.4.0) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2025-01-12 00:06:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20180627103715_create_events.rb
+
+
+):
+  
+activerecord (7.0.8) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8) lib/active_support/evented_file_update_checker.rb:63:in `execute'
+activerecord (7.0.8) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (6.4.0) lib/puma/configuration.rb:272:in `call'
+puma (6.4.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.0) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.0) lib/puma/server.rb:443:in `process_client'
+puma (6.4.0) lib/puma/server.rb:241:in `block in run'
+puma (6.4.0) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2025-01-12 00:06:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20180627103715_create_events.rb
+
+
+):
+  
+activerecord (7.0.8) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8) lib/active_support/evented_file_update_checker.rb:63:in `execute'
+activerecord (7.0.8) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (6.4.0) lib/puma/configuration.rb:272:in `call'
+puma (6.4.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.0) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.0) lib/puma/server.rb:443:in `process_client'
+puma (6.4.0) lib/puma/server.rb:241:in `block in run'
+puma (6.4.0) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20180627103715)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180627103715"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2025-01-12 05:08:45.191853"], ["updated_at", "2025-01-12 05:08:45.191853"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2025-01-12 00:09:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1283)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 28164)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.1ms | Allocations: 29773)
+
+
+Started GET "/events/new" for ::1 at 2025-01-12 00:09:39 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 17.1ms | Allocations: 6338)
+  Rendered events/new.html.erb within layouts/application (Duration: 18.3ms | Allocations: 6608)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 9645)
+Completed 200 OK in 31ms (Views: 21.3ms | ActiveRecord: 0.7ms | Allocations: 13714)
+
+
+Started POST "/events" for ::1 at 2025-01-12 00:12:53 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"8Bg5U4tGAqUVE_2mlssNBj54lIngr5qD6KvULXieCbhHRpx2rIqt1_ds9-wMbH4Tf-jwjs7eh0cGtMogW2UGjQ", "event"=>{"title"=>"abc", "date(1i)"=>"2025", "date(2i)"=>"1", "date(3i)"=>"12"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mEvent Create (1.0ms)[0m  [1m[32mINSERT INTO "events" ("title", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "abc"], ["date", "2025-01-12"], ["created_at", "2025-01-12 05:12:53.760861"], ["updated_at", "2025-01-12 05:12:53.760861"]]
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 13ms (ActiveRecord: 1.7ms | Allocations: 3650)
+
+
+Started GET "/events/1" for ::1 at 2025-01-12 00:12:53 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 464)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3501)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 5948)
+
+
+Started GET "/events/1/edit" for ::1 at 2025-01-12 00:12:56 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.7ms | Allocations: 2473)
+  Rendered events/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2745)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5782)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 6537)
+
+
+Started GET "/events" for ::1 at 2025-01-12 00:12:59 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 918)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3955)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 4181)
+
+
+Started GET "/events/new" for ::1 at 2025-01-12 00:13:01 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.6ms | Allocations: 2375)
+  Rendered events/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2461)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 5511)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 5740)
+
+
+Started POST "/events" for ::1 at 2025-01-12 00:13:07 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"S9e6scaz_eU5PpLwxU9DsJkM0dYbOOZ_J32ITh6MYDz8iR-U4X9Sl9tBmLpf6DCl2Jy10TVJ-7vJYpZDPXdvCQ", "event"=>{"title"=>"def", "date(1i)"=>"2025", "date(2i)"=>"1", "date(3i)"=>"14"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("title", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "def"], ["date", "2025-01-14"], ["created_at", "2025-01-12 05:13:07.565452"], ["updated_at", "2025-01-12 05:13:07.565452"]]
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/events/2
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms | Allocations: 2317)
+
+
+Started GET "/events/2" for ::1 at 2025-01-12 00:13:07 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3329)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 4029)
+
+
+Started GET "/events" for ::1 at 2025-01-12 00:13:10 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4116)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 4342)
+
+
+Started GET "/events/new" for ::1 at 2025-01-12 00:13:29 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 4.8ms | Allocations: 2387)
+  Rendered events/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2473)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5510)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5739)
+
+
+Started POST "/events" for ::1 at 2025-01-12 00:13:34 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"8UtqOc6GWoN8pzB8yo_fpSK9OcJp6TPz_yMaxDbtHDlGFc8c6Ur18Z7YOjZQKKywYy1dxUeYLjcRPATJFRYTDA", "event"=>{"title"=>"tgh", "date(1i)"=>"2025", "date(2i)"=>"1", "date(3i)"=>"20"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "tgh"], ["date", "2025-01-20"], ["created_at", "2025-01-12 05:13:34.953023"], ["updated_at", "2025-01-12 05:13:34.953023"]]
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/events/3
+Completed 302 Found in 7ms (ActiveRecord: 1.5ms | Allocations: 2290)
+
+
+Started GET "/events/3" for ::1 at 2025-01-12 00:13:34 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 259)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3296)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 3995)
+
+
+Started GET "/events" for ::1 at 2025-01-12 00:13:36 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1236)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4273)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 4500)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddTimesToEvents (20250112052535)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "events" ADD "start_time" datetime(6)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "events" ADD "end_time" datetime(6)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "title" varchar DEFAULT NULL, "date" date DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime(6) DEFAULT NULL, "end_time" datetime(6) DEFAULT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[32mINSERT INTO "aevents" ("id","title","date","created_at","updated_at","start_time","end_time")
+                     SELECT "id","title","date","created_at","updated_at","start_time","end_time" FROM "events"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "events"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "title" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime(6) DEFAULT NULL, "end_time" datetime(6) DEFAULT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "events" ("id","title","created_at","updated_at","start_time","end_time")
+                     SELECT "id","title","created_at","updated_at","start_time","end_time" FROM "aevents"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20250112052535"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2025-01-12 00:30:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:30:33.526268') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1322)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 8696)
+Completed 200 OK in 31ms (Views: 17.0ms | ActiveRecord: 0.3ms | Allocations: 13020)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:30:52 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 11.5ms | Allocations: 4439)
+  Rendered events/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 4729)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 7767)
+Completed 200 OK in 26ms (Views: 16.4ms | ActiveRecord: 0.6ms | Allocations: 11922)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:31:58 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"w-GieLnyZfQXkS_nJ0Tryf-bDloMD0aSEi3g-ZWzSxEvCHhoBveJWIUSJyniyscECsC6oO26lffZmR3LxUxNSw", "event"=>{"title"=>"A", "description"=>"task", "start_time"=>"2025-01-13T13:32", "end_time"=>"2025-01-13T14:33"}, "commit"=>"Create Event"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 899)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'description' for Event.):
+  
+app/controllers/events_controller.rb:19:in `create'
+Started GET "/events/new" for ::1 at 2025-01-12 00:32:14 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 2.5ms | Allocations: 1372)
+  Rendered events/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1458)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4551)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4790)
+
+
+Started GET "/events" for ::1 at 2025-01-12 00:32:35 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:32:35.683264') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 633)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3842)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 4144)
+
+
+Started GET "/events/new" for ::1 at 2025-01-12 00:32:38 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 2.2ms | Allocations: 1386)
+  Rendered events/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1472)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4509)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4737)
+
+
+Started POST "/events" for ::1 at 2025-01-12 00:33:19 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"5p_KibMpIQ1vT24SgvNeZiysa7g9aA6yEX8PAQ3hNqBRwW-slOWOf40wZFgYVC1zbTwPvxMZE3b_YBEMLho5lQ", "event"=>{"title"=>"A", "description"=>"rtg", "start_time"=>"2025-01-13T13:00", "end_time"=>"2025-01-13T14:00"}, "commit"=>"Create Event"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 706)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'description' for Event.):
+  
+app/controllers/events_controller.rb:19:in `create'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDescriptionToEvents (20250112053448)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "events" ADD "description" text[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20250112053448"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2025-01-12 00:35:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:35:47.915666') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1324)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 8859)
+Completed 200 OK in 20ms (Views: 11.9ms | ActiveRecord: 0.2ms | Allocations: 13303)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:35:49 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 5.7ms | Allocations: 4017)
+  Rendered events/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4307)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 7345)
+Completed 200 OK in 16ms (Views: 8.0ms | ActiveRecord: 0.5ms | Allocations: 11947)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:36:12 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"DyB5b0Zy8qMh8oL5H74iBgNvQ6Fjq__6U0Cv1cv8Ck3jyaN_-XceD7NxijfaMA7L9jT3W4IeLJ-Y9FLnmwMMFw", "event"=>{"title"=>"A", "description"=>"fgt", "start_time"=>"2025-01-09T13:36", "end_time"=>"2025-01-09T13:37"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (1.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "A"], ["created_at", "2025-01-12 05:36:12.225444"], ["updated_at", "2025-01-12 05:36:12.225444"], ["start_time", "2025-01-09 13:36:00"], ["end_time", "2025-01-09 13:37:00"], ["description", "fgt"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/4
+Completed 302 Found in 12ms (ActiveRecord: 2.4ms | Allocations: 3820)
+
+
+Started GET "/events/4" for 127.0.0.1 at 2025-01-12 00:36:12 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1717)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1802)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 4217)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<Event id: 4, title: "A", created_at: "2025-01-12 05:36:12.225444000 +0000", updated_at: "2025-01-12 05:36:12.225444000 +0000", start_time: "2025-01-09 13:36:00.000000000 +0000", end_time: "2025-01-09 13:37:00.000000000 +0000", description: "fgt">):
+     7: 
+     8: <p>
+     9:   <strong>Date:</strong>
+    10:   <%= @event.date %>
+    11: </p>
+    12: 
+    13: <%= link_to 'Edit', edit_event_path(@event) %> |
+  
+app/views/events/show.html.erb:10
+Started GET "/events/4" for 127.0.0.1 at 2025-01-12 00:37:33 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 7.1ms | Allocations: 870)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4186)
+Completed 200 OK in 18ms (Views: 12.9ms | ActiveRecord: 0.5ms | Allocations: 5395)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:37:41 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:37:41.620684') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 4134)
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 4511)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:37:44 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.5ms | Allocations: 1774)
+  Rendered events/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2041)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 5096)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5387)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:38:01 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"zOCZ8_1n9VsXeX7u9CTvWXan5-LTdfMhIR3HWHneI6MgCUPjQmIZ94X6diAxqsOUg_xTGDLAIETqqTpqKSEl-Q", "event"=>{"title"=>"abc", "description"=>"ghj", "start_time"=>"2025-01-17T15:40", "end_time"=>"2025-01-17T15:42"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (1.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "abc"], ["created_at", "2025-01-12 05:38:01.755224"], ["updated_at", "2025-01-12 05:38:01.755224"], ["start_time", "2025-01-17 15:40:00"], ["end_time", "2025-01-17 15:42:00"], ["description", "ghj"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/5
+Completed 302 Found in 10ms (ActiveRecord: 2.8ms | Allocations: 2366)
+
+
+Started GET "/events/5" for 127.0.0.1 at 2025-01-12 00:38:01 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 529)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3589)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 4290)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:38:06 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (1.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:38:06.550279') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 843)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4044)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 1.7ms | Allocations: 4338)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:38:15 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 2.7ms | Allocations: 1371)
+  Rendered events/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1457)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4494)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4724)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:38:34 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"7FUBznNfZeAuPn6jBypX5nKCwhKXrJKOcK1obfSLdOoAvNvezFqJTLy9dm3CpHsrh9l26HYZQeu7GZVfpHRysA", "event"=>{"title"=>"tgh", "description"=>"fgt", "start_time"=>"2025-01-15T13:40", "end_time"=>"2025-01-15T15:41"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "tgh"], ["created_at", "2025-01-12 05:38:34.844722"], ["updated_at", "2025-01-12 05:38:34.844722"], ["start_time", "2025-01-15 13:40:00"], ["end_time", "2025-01-15 15:41:00"], ["description", "fgt"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/6
+Completed 302 Found in 23ms (ActiveRecord: 3.6ms | Allocations: 2375)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2025-01-12 00:38:34 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3584)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.1ms | Allocations: 4287)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:38:36 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:38:36.791493') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4242)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 1.6ms | Allocations: 4536)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2025-01-12 00:38:44 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 530)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3567)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 4268)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:38:46 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:38:46.490592') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:16
+  Rendered events/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4239)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms | Allocations: 4533)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:41:07 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:41:07.585332') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1332)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4773)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 5565)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:54:25 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 6.0ms | Allocations: 1787)
+  Rendered events/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2052)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5089)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 5375)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:55:01 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"q3vdCISHy3Rx1peXDqFd-ra4Gw-XOvz8TWeW8TEE2mdHkgcYO4In2ONVn1nLL3E3Q-Ov9XaPL5mG02vDYfvcPQ", "event"=>{"title"=>"nji", "description"=>"ghy", "start_time"=>"2025-01-23T19:32", "end_time"=>"2025-01-23T19:33"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (1.1ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "nji"], ["created_at", "2025-01-12 05:55:01.180124"], ["updated_at", "2025-01-12 05:55:01.180124"], ["start_time", "2025-01-23 19:32:00"], ["end_time", "2025-01-23 19:33:00"], ["description", "ghy"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/7
+Completed 302 Found in 25ms (ActiveRecord: 3.0ms | Allocations: 2512)
+
+
+Started GET "/events/7" for 127.0.0.1 at 2025-01-12 00:55:01 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 800)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3883)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 4698)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:55:04 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:55:04.745634') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1226)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4466)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 4760)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:55:07 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.2ms | Allocations: 1356)
+  Rendered events/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1442)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 4479)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4709)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:56:07 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"t2Hmr0laX47G9Fk6tVPZ7Z7rPBuZKYrTCqbT55T2wAZbiDy_9l-zIlR3UfRw3fUga7CI4XicWbbBEi7VxAnGXA", "event"=>{"title"=>"thi", "description"=>"ghi", "start_time"=>"2025-01-23T19:35", "end_time"=>"2025-01-23T19:36"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (1.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "thi"], ["created_at", "2025-01-12 05:56:07.254725"], ["updated_at", "2025-01-12 05:56:07.254725"], ["start_time", "2025-01-23 19:35:00"], ["end_time", "2025-01-23 19:36:00"], ["description", "ghi"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/8
+Completed 302 Found in 19ms (ActiveRecord: 2.3ms | Allocations: 2366)
+
+
+Started GET "/events/8" for 127.0.0.1 at 2025-01-12 00:56:07 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 535)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3572)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 4273)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:56:08 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:56:08.998260') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1427)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4637)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 4931)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:56:17 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.5ms | Allocations: 1362)
+  Rendered events/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1448)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4485)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 4716)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:56:46 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"ogE_mlnGxJsUYp-jYRy63kpyfvJlPRnjGFR7NQhRc-5O6OWK5sMoN4bhl22kkpYTvynKCISIyobT4IYHWK51tA", "event"=>{"title"=>"mjh", "description"=>"hju", "start_time"=>"2025-01-23T14:58", "end_time"=>"2025-01-23T14:59"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (0.9ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "mjh"], ["created_at", "2025-01-12 05:56:46.309580"], ["updated_at", "2025-01-12 05:56:46.309580"], ["start_time", "2025-01-23 14:58:00"], ["end_time", "2025-01-23 14:59:00"], ["description", "hju"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/9
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms | Allocations: 2384)
+
+
+Started GET "/events/9" for 127.0.0.1 at 2025-01-12 00:56:46 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 532)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3569)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 4271)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:56:47 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:56:47.616251') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1627)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4828)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.3ms | Allocations: 5122)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 00:56:52 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.6ms | Allocations: 1347)
+  Rendered events/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1433)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4470)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 4700)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 00:57:11 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"hxDE-ddS5itTawU52XLrhWTe7g4pddJgnmFY0y36PdVr-R7paFcKh8HoDfcc_MdIkYVa9MjAAQVV1aXhfQU7jw", "event"=>{"title"=>"zxc", "description"=>"nbh", "start_time"=>"2025-01-23T14:58", "end_time"=>"2025-01-23T14:59"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mEvent Create (0.8ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "zxc"], ["created_at", "2025-01-12 05:57:11.528362"], ["updated_at", "2025-01-12 05:57:11.528362"], ["start_time", "2025-01-23 14:58:00"], ["end_time", "2025-01-23 14:59:00"], ["description", "nbh"]]
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:22:in `block in create'
+Redirected to http://127.0.0.1:3000/events/10
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms | Allocations: 2368)
+
+
+Started GET "/events/10" for 127.0.0.1 at 2025-01-12 00:57:11 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 544)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3581)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.2ms | Allocations: 4282)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 00:57:12 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 05:57:12.569120') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1827)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 5045)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.3ms | Allocations: 5340)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2025-01-12 01:04:24 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 533)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3608)
+Completed 200 OK in 18ms (Views: 9.0ms | ActiveRecord: 0.9ms | Allocations: 4453)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:04:26 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:04:26.539836') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1827)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 5039)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 5333)
+
+
+Started GET "/events/6/edit" for 127.0.0.1 at 2025-01-12 01:04:27 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 3.8ms | Allocations: 1517)
+  Rendered events/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1783)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4820)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.2ms | Allocations: 5577)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2025-01-12 01:04:31 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:35:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 542)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3579)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms | Allocations: 4280)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:04:32 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:04:32.688771') ORDER BY "events"."start_time" ASC, "events"."title" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1827)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5034)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 5328)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:18:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:18:26.394698') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 6948)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 29538)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.6ms | Allocations: 33843)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("events.css")
+In "/Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/config/manifest.js" these files were linked:
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.css
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.scss
+):
+  
+sprockets (4.2.1) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:18:28 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:18:28.680374') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1834)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5672)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms | Allocations: 5948)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("events.css")
+In "/Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/config/manifest.js" these files were linked:
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.css
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.scss
+):
+  
+sprockets (4.2.1) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:18:29 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:18:29.185325') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 5592)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 5865)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("events.css")
+In "/Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/config/manifest.js" these files were linked:
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.css
+  - /Users/nivethacoding/Downloads/interview-task-208166232002-main/app/assets/stylesheets/events.scss
+):
+  
+sprockets (4.2.1) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:24:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:24:38.697825') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 6948)
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 19051)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.6ms | Allocations: 23424)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:3
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:24:41 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:24:41.536672') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1834)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4952)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms | Allocations: 5228)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:3
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:24:42 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:24:42.255451') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4924)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms | Allocations: 5197)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:3
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:24:42 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:24:42.815676') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4924)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.7ms | Allocations: 5197)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:3
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:24:48 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:24:48.652156') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4924)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms | Allocations: 5197)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:3
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:29:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:13.697294') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 6948)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 26608)
+Completed 200 OK in 65ms (Views: 49.6ms | ActiveRecord: 0.9ms | Allocations: 31130)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:29:16 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:16.937926') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1833)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4654)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 4959)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:29:17 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:17.945295') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 4666)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 4968)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:29:18 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:18.433880') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4684)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 4986)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-12 01:29:18 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:18.795277') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1827)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4666)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 4961)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 01:29:22 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 5.4ms | Allocations: 4134)
+  Rendered events/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4423)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 7090)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 7422)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 01:29:59 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"pBE6d3nZP8gDW14ztLynrt0yZFkA1gNubYFGH40Ru9yeYaudIZrLfqHGMxUjn1g5DLlYjlM5ljYpVuZdHNop-g", "event"=>{"title"=>"cvb", "description"=>"fgh", "start_time"=>"2025-01-09T14:30", "end_time"=>"2025-01-09T14:31"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (1.1ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "cvb"], ["created_at", "2025-01-12 06:29:59.230093"], ["updated_at", "2025-01-12 06:29:59.230093"], ["start_time", "2025-01-09 14:30:00"], ["end_time", "2025-01-09 14:31:00"], ["description", "fgh"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Redirected to http://127.0.0.1:3000/events
+Completed 302 Found in 11ms (ActiveRecord: 2.3ms | Allocations: 3620)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:29:59 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:29:59.277427') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1828)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 4681)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 4980)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 01:30:06 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 2.9ms | Allocations: 1409)
+  Rendered events/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1495)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4161)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4396)
+
+
+Started POST "/events" for 127.0.0.1 at 2025-01-12 01:30:31 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"xGDmMcD7pfdjGgixJdenDl_0lvv8vWG_aO2CsOLOgVD-EHfbmLhRQcGHZZey9FiZjn-qLK9S9OcsOiLycwUTdg", "event"=>{"title"=>"hgf", "description"=>"ghy", "start_time"=>"2025-01-25T17:34", "end_time"=>"2025-01-25T17:36"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (0.8ms)[0m  [1m[32mINSERT INTO "events" ("title", "created_at", "updated_at", "start_time", "end_time", "description") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "hgf"], ["created_at", "2025-01-12 06:30:31.800805"], ["updated_at", "2025-01-12 06:30:31.800805"], ["start_time", "2025-01-25 17:34:00"], ["end_time", "2025-01-25 17:36:00"], ["description", "ghy"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Redirected to http://127.0.0.1:3000/events
+Completed 302 Found in 29ms (ActiveRecord: 2.0ms | Allocations: 2376)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:30:31 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:30:31.830630') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2027)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4871)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 5167)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2025-01-12 01:30:36 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 999)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3665)
+Completed 200 OK in 23ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 7568)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:30:44 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:30:44.294536') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2027)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4872)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 5167)
+
+
+Started GET "/events/12/edit" for 127.0.0.1 at 2025-01-12 01:30:45 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 2.9ms | Allocations: 1569)
+  Rendered events/edit.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1831)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4513)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 5281)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:30:49 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:30:49.229187') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2027)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4854)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.5ms | Allocations: 5149)
+
+
+Started GET "/events/12" for 127.0.0.1 at 2025-01-12 01:30:50 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 572)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3253)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.2ms | Allocations: 3959)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:30:53 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:30:53.162548') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:15
+  Rendered events/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2027)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4869)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 5164)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:39:30 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "events" WHERE (start_time >= '2025-01-12 06:39:30.533523') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:21
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:39:30.533523') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:22
+  Rendered events/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 5295)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 8208)
+Completed 200 OK in 27ms (Views: 19.7ms | ActiveRecord: 1.1ms | Allocations: 9126)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-12 01:39:51 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 5.5ms | Allocations: 1954)
+  Rendered events/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2227)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4893)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 5184)
+
+
+Started GET "/events" for 127.0.0.1 at 2025-01-12 01:39:55 -0500
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "events" WHERE (start_time >= '2025-01-12 06:39:55.061655') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:21
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-12 06:39:55.061655') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:22
+  Rendered events/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4315)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6981)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.5ms | Allocations: 7277)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-13 15:16:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "events" WHERE (start_time >= '2025-01-13 20:16:58.364598') LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:21
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE (start_time >= '2025-01-13 20:16:58.364598') ORDER BY "events"."start_time" ASC[0m
+  ↳ app/views/events/index.html.erb:22
+  Rendered events/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 11030)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 16780)
+Completed 200 OK in 25ms (Views: 18.6ms | ActiveRecord: 0.7ms | Allocations: 21251)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2025-01-13 15:17:03 -0500
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (Duration: 12.7ms | Allocations: 4094)
+  Rendered events/new.html.erb within layouts/application (Duration: 14.2ms | Allocations: 4384)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7051)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 7385)
+
+
